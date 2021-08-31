@@ -3,7 +3,7 @@
 html {
     border: 20px solid #bdc3c7;
     border-radius: 10px;
-    margin: 20px 20%;
+    margin: 0 20%;
 }
 
 body {
@@ -21,7 +21,7 @@ h2 {
 
 h2:hover {
     text-align: center;
-    letter-spacing: 10px;
+    transform: scaleX(1.5);
 }
 
 div.first {
