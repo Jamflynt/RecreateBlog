@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+/* Alertnative method is to use a Div */
 html {
     border: 20px solid #bdc3c7;
     border-radius: 10px;
     margin: 50px 10%;
+    /* should have used width: 80%; under a div selector instead of the above margin thing in the HTML selector */
+    /* Also set to margin: auto; like you originally had */
 }
 
+/* Can use section tags instead of divs for each section */
+
+/* can also use the '*' selector */
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -17,6 +23,7 @@ h2 {
     color: #3d3d3d;
     margin: 0;
     padding: 10px
+    /* NOTE: h2 elements are bold by default and therefore seeing weight to bold is not necessary */
 }
 
 h2:hover {
@@ -52,3 +59,7 @@ div.first {
 #center {
     text-align: center;
 }
+
+/* For bonus h2:hover question can use these too  /* VMAX and VMIN can be used to size most things with CSS. VMIN with base the sizing off of the the Smaller of the two (Height and Width of the viewport). VMAX with base the sizing off of the the Larger of the two (Height and Width of the viewport) */
+  /* letter-spacing: 1.7vmax; */
+  /* letter-spacing: 1vw; */
